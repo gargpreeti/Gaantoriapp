@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+
+    <com.zoptal.gaantori.common.InteractiveScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+<RelativeLayout
+    android:id="@+id/rel_free"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:background="@mipmap/free_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imgfree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/select"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:text="FREE"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_paid"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:background="@mipmap/paid"
+        android:layout_centerHorizontal="true"
+         android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/imageView3" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/select"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible"
+            android:id="@+id/imgpaid"
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_alignEnd="@+id/imageView3" />
+
+
+
+  <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$1.00"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monthly"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/textView1"
+             android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:layout_alignBottom="@+id/imageView3"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel_paidyearly"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:background="@mipmap/paid"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/imageView4" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/select"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:visibility="invisible"
+                    android:id="@+id/imgpaidyearly"
+                    android:layout_alignTop="@+id/imageView4"
+                    android:layout_alignEnd="@+id/imageView4" />
+
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@mipmap/select"-->
+                    <!--android:layout_marginLeft="20dp"-->
+                    <!--android:layout_marginRight="20dp"-->
+                    <!--android:layout_marginTop="20dp"-->
+                    <!--android:id="@+id/imgpaidY"-->
+                    <!--android:visibility="invisible"-->
+                    <!--android:layout_alignTop="@+id/imgpaidyearly"-->
+                    <!--android:layout_alignEnd="@+id/imgpaidyearly" />-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$10.00"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/textViewyearly"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/white"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yearly"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/textView1yearly"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/white"
+                    android:layout_alignBottom="@+id/imageView4"
+                    android:layout_centerHorizontal="true" />
+
+            </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upgrade Membership"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:layout_marginBottom="5dp"
+        android:background="@mipmap/select_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/btn_cncl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel Membership"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:textSize="24dp"
+                android:visibility="gone"
+                android:layout_marginBottom="5dp"
+                android:background="@mipmap/select_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"/>
+</RelativeLayout>
+</LinearLayout>
+    </com.zoptal.gaantori.common.InteractiveScrollView>
+
+</LinearLayout>

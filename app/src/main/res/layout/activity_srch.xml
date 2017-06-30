@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg">
+
+
+    <!--<com.zoptal.gaantori.common.InteractiveScrollView-->
+        <!--android:id="@+id/scrollView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginTop="1dp"-->
+        <!--android:fillViewport="true"-->
+        <!--&gt;-->
+
+        <TextView
+            android:id="@+id/tv_album"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Albums"
+            android:textSize="14dp"
+            android:layout_marginBottom="5dp"
+            android:textAllCaps="false"
+            android:background="@drawable/headingback"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"/>
+
+
+    <ListView
+        android:id="@+id/list_album"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:divider="@mipmap/st_line"
+        android:dividerHeight="1dp"
+        android:layout_below="@+id/tv_album"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="2dp"
+      >
+    </ListView>
+
+           <TextView
+            android:id="@+id/tv_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artist"
+              android:layout_below="@+id/list_album"
+            android:textSize="16dp"
+            android:layout_toRightOf="@+id/img_music"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="10dp"
+            android:textAllCaps="false"
+          android:layout_gravity="center"
+               android:background="@drawable/headingback"
+               android:gravity="center"
+            android:layout_centerHorizontal="true"
+          android:textColor="#ffffff"/>
+           <ListView
+            android:layout_below="@+id/tv_artist"
+            android:id="@+id/list_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="7dp"
+            android:numColumns="3"
+            android:stretchMode="columnWidth" >
+        </ListView>
+
+
+    <TextView
+        android:id="@+id/tv_playlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Playlist"
+        android:background="@drawable/headingback"
+        android:gravity="center"
+        android:layout_below="@+id/list_artist"
+        android:textSize="16dp"
+        android:layout_toRightOf="@+id/img_music"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"/>
+    <ListView
+        android:layout_below="@+id/tv_playlist"
+        android:id="@+id/list_playlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="7dp"
+     >
+    </ListView>
+
+
+
+    <TextView
+        android:id="@+id/tv_song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Songs"
+        android:layout_below="@+id/list_playlist"
+        android:textSize="16dp"
+        android:layout_toRightOf="@+id/img_music"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/headingback"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"/>
+    <ListView
+        android:layout_below="@+id/tv_song"
+        android:id="@+id/list_song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="7dp"
+        >
+    </ListView>
+
+
+
+
+
+
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_marginTop="5dp">-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:background="@mipmap/selected">-->
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@mipmap/quick_select"-->
+                <!--android:layout_weight="0.5">-->
+
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/img_star"-->
+                    <!--android:layout_width="15dp"-->
+                    <!--android:layout_height="15dp"-->
+                    <!--android:background="@mipmap/star"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:layout_marginRight="8dp"-->
+                    <!--android:layout_marginLeft="10dp"/>-->
+
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Featured Playlist"-->
+                    <!--android:textSize="16dp"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:layout_marginBottom="5dp"-->
+                    <!--android:textAllCaps="false"-->
+                    <!--android:textColor="@color/white"/>-->
+
+            <!--</LinearLayout>-->
+
+
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="41dp"-->
+                <!--android:text="See more..."-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="16dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@android:color/transparent"-->
+                <!--android:textAllCaps="false"-->
+                <!--android:id="@+id/btn_see" />-->
+
+        <!--</LinearLayout>-->
+
+      <!--<GridView-->
+
+             <!--android:id="@+id/gridView2"-->
+             <!--android:layout_width="fill_parent"-->
+             <!--android:layout_height="wrap_content"-->
+             <!--android:columnWidth="160dp"-->
+             <!--android:gravity="center"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="7dp"-->
+            <!--android:numColumns="2"-->
+            <!--android:stretchMode="columnWidth" >-->
+        <!--</GridView>-->
+
+    <!--</LinearLayout>-->
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical"-->
+                <!--android:layout_marginTop="5dp">-->
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:background="@mipmap/selected">-->
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:background="@mipmap/quick_select"-->
+                        <!--android:layout_marginBottom="7dp"-->
+                        <!--android:layout_weight="0.5">-->
+
+                        <!--<ImageView-->
+                        <!--android:id="@+id/img_sub"-->
+                        <!--android:layout_width="15dp"-->
+                        <!--android:layout_height="15dp"-->
+                        <!--android:background="@mipmap/sub"-->
+                        <!--android:layout_marginTop="12dp"-->
+                        <!--android:layout_marginLeft="10dp"/>-->
+
+
+
+                        <!--<TextView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="Subscribed Artists"-->
+                            <!--android:textSize="16dp"-->
+                            <!--android:layout_margin="10dp"-->
+                            <!--android:textAllCaps="false"-->
+
+                            <!--android:textColor="@color/white"/>-->
+
+                    <!--</LinearLayout>-->
+                    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                      <!--&lt;!&ndash; &ndash;&gt;-->
+                        <!--&lt;!&ndash;android:textColor="@color/white"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:textSize="16dp"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_weight="0.5"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:background="@mipmap/quick_select"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:textAllCaps="false"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:id="@+id/btn_feat1" />&ndash;&gt;-->
+
+                    <!--<Button-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="41dp"-->
+                        <!--android:text="See more..."-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:textSize="16dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:background="@android:color/transparent"-->
+                        <!--android:textAllCaps="false"-->
+                        <!--android:id="@+id/btn_see1" />-->
+
+                <!--</LinearLayout>-->
+
+                <!--<GridView-->
+                    <!--android:id="@+id/gridView3"-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_height="460dp"-->
+                    <!--android:columnWidth="160dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_marginLeft="8dp"-->
+                    <!--android:layout_marginRight="7dp"-->
+                    <!--android:numColumns="2"-->
+                    <!--android:stretchMode="columnWidth" >-->
+                <!--</GridView>-->
+            <!--</LinearLayout>-->
+
+
+        <!--</LinearLayout>-->
+    <!--</com.zoptal.gaantori.common.InteractiveScrollView>-->
+</LinearLayout>

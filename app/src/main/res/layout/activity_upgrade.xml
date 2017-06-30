@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <com.zoptal.gaantori.common.InteractiveScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/pic1"
+        android:id="@+id/imageView2" />
+
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You are Premium User"
+            android:textColor="@color/textclr"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center" />
+        <RelativeLayout
+            android:id="@+id/rel_month"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:background="@mipmap/box"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/imageView3" />
+
+        <ImageView
+            android:id="@+id/img_selectedm"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@mipmap/selected1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_alignEnd="@+id/imageView3" />
+
+  <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$1.00"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/textclr"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monthly"
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/textView1"
+             android:layout_marginBottom="20dp"
+            android:textColor="@color/textclr"
+            android:layout_alignBottom="@+id/imageView3"
+            android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/rel_month"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:background="@mipmap/box"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/imageView4" />
+
+        <ImageView
+            android:id="@+id/img_selectedy"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@mipmap/selected1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignTop="@+id/imageView4"
+            android:layout_alignEnd="@+id/imageView4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$10.00"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/textView_yearly"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:textColor="@color/textclr"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yearly"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/textView_yearly1"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/textclr"
+                android:layout_alignBottom="@+id/imageView4"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+    <Button
+        android:id="@+id/continue_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@mipmap/btn1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"/>
+
+            </LinearLayout>
+    </com.zoptal.gaantori.common.InteractiveScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linear1"
+    android:background="@mipmap/bg">
+
+
+    <com.zoptal.gaantori.common.InteractiveScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:layout_marginTop="3dp"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linear"
+            android:orientation="vertical">
+
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+       <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:scaleType="fitCenter"
+            android:id="@+id/img"
+           android:maxWidth="200dp"
+           android:maxHeight="150dp"
+           android:adjustViewBounds= "true"
+            android:layout_margin="10dp"
+
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Random Album"
+            android:textSize="16dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:id="@+id/name"
+            />
+
+        <LinearLayout
+            android:id="@+id/linear_saveplaylist"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@mipmap/save_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@mipmap/save_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn"
+                android:textSize="12dp"
+                android:textAllCaps="false"
+               android:background="@android:color/transparent"
+                android:text="Save to playlist"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Album By:ARIJEET SINGH"-->
+            <!--android:id="@+id/aname"-->
+            <!--android:textSize="16dp"-->
+            <!--android:autoLink=""-->
+            <!--android:textColor="@color/white"-->
+            <!--android:layout_marginTop="12dp"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_gravity="center"-->
+            <!--/>-->
+
+
+                <ListView
+                    android:id="@+id/listSinger"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:hint="bppa mazumder..."
+                    android:divider="@android:color/transparent"
+                    android:textColor="@color/white" />
+
+                <!--<LinearLayout-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="1dp"-->
+                <!--android:background="#ffffff"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_gravity="center"-->
+                <!--&gt;</LinearLayout>-->
+       <LinearLayout
+           android:id="@+id/linear_shuffle"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@mipmap/shuffledis"
+           android:layout_centerHorizontal="true"
+           android:layout_centerVertical="true"
+           android:layout_gravity="center"
+           android:orientation="horizontal"
+           android:layout_marginTop="5dp">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@mipmap/shuffle_icon"
+               android:layout_centerHorizontal="true"
+               android:layout_centerVertical="true"
+               android:layout_gravity="center"
+               android:layout_marginLeft="10dp"/>
+
+           <Button
+               android:id="@+id/btn_shuffle"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="SHUFFLE PLAY  "
+               android:textColor="@color/white"
+               android:background="@android:color/transparent"
+               android:layout_centerHorizontal="true"
+               android:layout_centerVertical="true"
+               android:layout_marginLeft="10dp"/>
+
+
+       </LinearLayout>
+
+    </LinearLayout>
+
+
+<!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_marginTop="20dp">-->
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Popular"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="18dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@mipmap/selected"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:id="@+id/btn_popular" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Albums"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="18dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@mipmap/quick_select"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:id="@+id/btn_albums" />-->
+
+
+<!--</LinearLayout>-->
+
+
+
+    <com.zoptal.gaantori.common.NonScrollListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@mipmap/st_line"
+        android:dividerHeight="1dp"
+        />
+
+</LinearLayout>
+    </com.zoptal.gaantori.common.InteractiveScrollView>
+</LinearLayout>

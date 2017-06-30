@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/relativeLayout"
+   >
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/img"
+             android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="2dp"
+             android:layout_marginTop="5dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:layout_toRightOf="@+id/img"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:id="@+id/name"
+            />
+
+        <!--<ListView-->
+            <!--android:id="@+id/listSinger"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:hint="bppa mazumder..."-->
+            <!--android:layout_below="@+id/name"-->
+            <!--android:divider="@android:color/transparent"-->
+            <!--android:textColor="@color/white" />-->
+
+
+        <TextView
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:id="@+id/singer"
+            android:layout_toRightOf="@+id/img"
+            android:textSize="12dp"
+            android:layout_below="@+id/name"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="4dp"></TextView>
+
+
+        <ImageView
+            android:id="@+id/mob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/arrow"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+
+            />
+
+
+</RelativeLayout>
+

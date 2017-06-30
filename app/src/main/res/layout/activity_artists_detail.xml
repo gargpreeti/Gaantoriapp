@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg">
+
+
+    <com.zoptal.gaantori.common.InteractiveScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:layout_marginTop="3dp"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+       <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img"
+            android:layout_margin="10dp"
+           android:maxWidth="200dp"
+           android:maxHeight="150dp"
+           android:adjustViewBounds= "true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Armaan Malik"
+            android:textSize="16dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:id="@+id/name"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/btn"
+            android:textSize="12dp"
+            android:background="@mipmap/save_btn"
+            android:layout_marginTop="10dp"
+            android:text="Follow"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/btn1"
+            android:textSize="12dp"
+            android:background="@mipmap/save_btn"
+            android:layout_marginTop="10dp"
+            android:text="Unfollow"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4,40,445 FOLLOWERS"
+            android:id="@+id/follow"
+            android:textSize="12dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            />
+       <LinearLayout
+           android:visibility="gone"
+           android:id="@+id/linear_shuffle"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@mipmap/shuffle_btn"
+           android:layout_centerHorizontal="true"
+           android:layout_centerVertical="true"
+           android:layout_gravity="center"
+           android:orientation="horizontal"
+           android:layout_marginTop="10dp">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@mipmap/shuffle_icon"
+               android:layout_centerHorizontal="true"
+               android:layout_centerVertical="true"
+               android:layout_gravity="center"
+               android:layout_marginLeft="20dp"/>
+
+           <Button
+                android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+                android:text="SHUFFLE PLAY"
+               android:textColor="@color/white"
+               android:background="@android:color/transparent"
+               android:layout_centerHorizontal="true"
+               android:layout_centerVertical="true"
+               android:layout_marginLeft="10dp"/>
+
+
+       </LinearLayout>
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Popular"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:background="@mipmap/selected"
+        android:textAllCaps="false"
+        android:id="@+id/btn_popular" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Albums"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:background="@mipmap/quick_select"
+        android:textAllCaps="false"
+        android:id="@+id/btn_albums" />
+
+
+</LinearLayout>
+
+
+
+    <com.zoptal.gaantori.common.NonScrollListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@mipmap/st_line"
+        android:dividerHeight="1dp"
+        />
+
+</LinearLayout>
+    </com.zoptal.gaantori.common.InteractiveScrollView>
+</LinearLayout>

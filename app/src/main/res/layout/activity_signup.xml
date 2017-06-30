@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="@mipmap/bg">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#302201">
+
+        <ImageView
+            android:id="@+id/bck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/back"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:textSize="18dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"/>
+
+    </RelativeLayout>
+
+
+    <com.zoptal.gaantori.common.InteractiveScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:layout_marginTop="3dp"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+
+
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logo_img"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="@mipmap/logologin"
+            />
+
+
+    </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@mipmap/bglogin">
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/fimg"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@mipmap/name"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="First Name"
+                    android:id="@+id/fname"
+                    android:textSize="18dp"
+                    android:textColorHint="#b2b2b2"
+                    android:textCursorDrawable="@drawable/blackcursor"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/fimg"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_below="@+id/fimg"
+                    android:background="@mipmap/line"
+                    />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:id="@+id/limg"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@mipmap/name"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Last Name"
+                        android:id="@+id/lname"
+                        android:textSize="18dp"
+                        android:textColorHint="#b2b2b2"
+                        android:textCursorDrawable="@drawable/blackcursor"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        android:background="@android:color/transparent"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/limg"
+                        />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/line11"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@+id/limg"
+                        android:background="@mipmap/line"
+                        />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="18dp"
+                        android:id="@+id/eimg"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@mipmap/mail"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Email"
+                        android:id="@+id/email"
+                        android:textSize="18dp"
+                        android:textColorHint="#b2b2b2"
+                        android:textCursorDrawable="@drawable/blackcursor"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        android:background="@android:color/transparent"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/eimg"
+                        />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/line0"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@+id/eimg"
+                        android:background="@mipmap/line"
+                        />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:id="@+id/gimg"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@mipmap/name"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Choose username"
+                        android:id="@+id/username"
+                        android:textSize="18dp"
+                        android:textColorHint="#b2b2b2"
+                        android:textCursorDrawable="@drawable/blackcursor"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        android:background="@android:color/transparent"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/gimg"
+                        />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/line3"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@+id/gimg"
+                        android:background="@mipmap/line"
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="20dp"
+                        android:id="@+id/pimg"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@mipmap/lock"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Choose password"
+                        android:id="@+id/pw1"
+                        android:textSize="18dp"
+                        android:textColorHint="#b2b2b2"
+                        android:inputType="textPassword"
+                        android:textCursorDrawable="@drawable/blackcursor"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        android:background="@android:color/transparent"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/pimg"
+                        />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/line1"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@+id/pimg"
+                        android:background="@mipmap/line"
+                        />
+          </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="20dp"
+                        android:id="@+id/pimg1"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@mipmap/lock"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Confirm password"
+                        android:id="@+id/pw11"
+                        android:textSize="18dp"
+                        android:textColorHint="#b2b2b2"
+                        android:inputType="textPassword"
+                        android:textCursorDrawable="@drawable/blackcursor"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        android:background="@android:color/transparent"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/pimg1"
+                        />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/line111"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@+id/pimg1"
+                        android:background="@mipmap/line"
+                        />
+                </RelativeLayout>
+
+
+
+
+
+
+
+                <RelativeLayout
+                    android:id="@+id/rel_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:id="@+id/dimg"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@mipmap/dob"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Date of birth"
+                        android:id="@+id/dob"
+                        android:textSize="18dp"
+                        android:textColorHint="#b2b2b2"
+                        android:textCursorDrawable="@drawable/blackcursor"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        android:background="@android:color/transparent"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/dimg"
+                        />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/line4"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@+id/dimg"
+                        android:background="@mipmap/line"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:id="@+id/genimg"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@mipmap/gender"
+                        />
+
+
+                    <Spinner
+                        android:layout_width="200dp"
+                        android:layout_height="30dp"
+                        android:hint="Gender"
+                        android:id="@+id/gender1"
+                        android:textSize="18dp"
+                        android:background="@android:color/transparent"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:textColorHint="#b2b2b2"
+                        android:textCursorDrawable="@drawable/blackcursor"
+                        android:singleLine="true"
+                        android:imeOptions="actionDone"
+                        android:layout_toRightOf="@+id/genimg" />
+
+
+
+                     <!---->
+                    <!--<EditText-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:hint="Gender"-->
+                        <!--android:id="@+id/gender1"-->
+                        <!--android:textSize="18dp"-->
+                        <!--android:background="@android:color/transparent"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:layout_marginTop="5dp"-->
+                        <!--android:layout_marginLeft="5dp"-->
+                        <!--android:textColorHint="#b2b2b2"-->
+                        <!--android:textCursorDrawable="@drawable/blackcursor"-->
+                        <!--android:singleLine="true"-->
+                        <!--android:imeOptions="actionDone"-->
+                        <!--android:layout_toRightOf="@+id/genimg"-->
+                        <!--/>-->
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/line5"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@+id/genimg"
+                        android:background="@mipmap/line"
+                        />
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/radioGroup"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal"
+                            >
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Free"
+                        android:id="@+id/radioButton"
+                        android:checked="false"
+                        android:textSize="16dp"
+                        android:buttonTint="#e75748"
+                        android:layout_marginLeft="30dp"
+                        android:textColor="#ffffff"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Premium"
+                        android:id="@+id/radioButton2"
+                        android:checked="false"
+                        android:textSize="16dp"
+                        android:buttonTint="#e75748"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#ffffff"
+                        />
+                </RadioGroup>
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:id="@+id/line6"-->
+                        <!--android:layout_marginTop="5dp"-->
+                        <!--android:layout_marginRight="30dp"-->
+                        <!--android:layout_marginLeft="40dp"-->
+                        <!--android:layout_marginBottom="10dp"-->
+                        <!--android:layout_below="@+id/radioGroup"-->
+                        <!--android:background="@mipmap/line"-->
+                        <!--/>-->
+
+            </RelativeLayout>
+
+                <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnsignup"
+                        android:layout_marginTop="60dp"
+                        android:text="Sign up"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textAllCaps="false"
+                         android:layout_gravity="center"
+                       android:layout_centerHorizontal="true"
+                        android:background="@mipmap/btnlogin"
+                        />
+
+
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="or"-->
+                    <!--android:id="@+id/or"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:layout_margin="5dp"-->
+
+                    <!--/>-->
+
+                <!--<Button-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:textSize="16dp"-->
+                    <!--android:text="     Sign In with facebook"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:background="@mipmap/facebook"-->
+                    <!--android:textAllCaps="false"-->
+                    <!--android:id="@+id/btn_fb" />-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="By signingup,you agree to gaantori terms and conditions of use and privacy policy"
+                    android:id="@+id/fpw"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="20dp"
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="bottom"-->
+                <!--android:layout_marginTop="120dp"-->
+               <!-->-->
+
+                <!--<RelativeLayout-->
+                    <!--android:id="@+id/rel_login"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@mipmap/login"-->
+                    <!--android:layout_weight="1">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Log in"-->
+                        <!--android:id="@+id/login"-->
+                        <!--android:textSize="16dp"-->
+                       <!--android:layout_marginLeft="50dp"-->
+                        <!--android:layout_gravity="center_horizontal"-->
+                        <!--android:textColor="@color/white"-->
+                      <!--android:layout_centerVertical="true"-->
+
+                        <!--/>-->
+
+                <!--</RelativeLayout>-->
+
+            <!--</LinearLayout>-->
+
+
+
+
+
+        </LinearLayout>
+    </com.zoptal.gaantori.common.InteractiveScrollView>
+</LinearLayout>

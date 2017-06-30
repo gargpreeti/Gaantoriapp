@@ -1,0 +1,362 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:id="@+id/activity_main_content_fragment"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#F0661B"
+        android:id="@+id/header_layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            android:id="@+id/logo"
+            android:textColor="#ffffff"
+            android:background="@mipmap/logo"
+            android:textSize="18dp"
+            android:layout_centerHorizontal="true" />
+
+     <ImageView
+              android:layout_width="15dp"
+              android:layout_height="25dp"
+              android:background="@mipmap/back"
+              android:layout_gravity="center"
+              android:layout_marginLeft="5dp"
+              android:layout_centerVertical="true"
+              android:id="@+id/back"
+              android:layout_alignParentStart="true"/>
+
+        <!--   <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Back"
+          android:layout_marginRight="10dp"
+          android:textColor="#ffffff"
+          android:textSize="18dp"
+          android:textStyle="bold"
+          android:id="@+id/text_bck"
+          android:layout_toRightOf="@+id/back"
+          android:layout_gravity="center"
+          android:layout_centerVertical="true"
+          /> -->
+
+        <!--    <ImageView
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:id="@+id/cart"
+                android:background="@drawable/cart"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true" /> -->
+
+    </RelativeLayout>
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Pay Now"
+    android:id="@+id/paynow"
+    android:textColor="#ffffff"
+    android:background="#F0661B"
+
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="80dp"
+    android:layout_marginBottom="140dp"></Button>
+
+    <!--android:layout_gravity="left|bottom"-->
+    <!--<ScrollView-->
+        <!--android:id="@+id/scrollView"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:layout_below="@+id/header_layout"-->
+        <!--android:fillViewport="true">-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/username_layout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_below="@+id/header_layout"-->
+            <!--android:layout_marginBottom="20dp"-->
+
+            <!--android:orientation="vertical">-->
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/linearLayout"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:orientation="vertical"-->
+                <!--android:weightSum="1">-->
+
+
+                <!--<EditText-->
+                    <!--android:id="@+id/ed_name"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:layout_marginRight="5dp"-->
+                    <!--android:layout_marginStart="5dp"-->
+                    <!--android:layout_marginTop="25dp"-->
+                    <!--android:hint="Name"-->
+                    <!--android:imeOptions="actionNext"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:textColor="#808080"-->
+                    <!--android:textSize="18dp"-->
+                    <!--android:textCursorDrawable="@drawable/blackcursor"-->
+                    <!--android:background="@android:color/transparent"-->
+                    <!--android:windowSoftInputMode="adjustResize" />-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_below="@+id/ed_name"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginRight="10dp"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:background="#808080"></LinearLayout>-->
+                <!--<EditText-->
+                    <!--android:id="@+id/ed_pincode"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:layout_below="@+id/ed_name"-->
+                    <!--android:layout_marginRight="5dp"-->
+                    <!--android:layout_marginStart="5dp"-->
+                    <!--android:layout_marginTop="20dp"-->
+                    <!--android:hint="Pincode"-->
+                    <!--android:textCursorDrawable="@drawable/blackcursor"-->
+                    <!--android:background="@android:color/transparent"-->
+                    <!--android:imeOptions="actionNext"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:textColor="#808080"-->
+                    <!--android:textSize="18dp" />-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_below="@+id/ed_pincode"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginRight="10dp"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:background="#808080"></LinearLayout>-->
+                <!--<EditText-->
+                    <!--android:id="@+id/ed_address"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:layout_below="@+id/ed_pincode"-->
+                    <!--android:layout_marginRight="5dp"-->
+                    <!--android:layout_marginStart="5dp"-->
+                    <!--android:layout_marginTop="15dp"-->
+                    <!--android:hint="Address"-->
+                    <!--android:textCursorDrawable="@drawable/blackcursor"-->
+                    <!--android:background="@android:color/transparent"-->
+                    <!--android:imeOptions="actionNext"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:textColor="#808080"-->
+                    <!--android:textSize="18dp" />-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_below="@+id/ed_address"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginRight="10dp"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:background="#808080"></LinearLayout>-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/ed_landmrk"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:layout_below="@+id/ed_address"-->
+                    <!--android:layout_marginRight="5dp"-->
+                    <!--android:layout_marginStart="5dp"-->
+                    <!--android:layout_marginTop="20dp"-->
+                    <!--android:hint="Landmark"-->
+                    <!--android:textCursorDrawable="@drawable/blackcursor"-->
+                    <!--android:background="@android:color/transparent"-->
+                    <!--android:imeOptions="actionNext"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:textColor="#808080"-->
+                    <!--android:textSize="18dp" />-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_below="@+id/ed_landmrk"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginRight="10dp"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:background="#808080"></LinearLayout>-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/ed_city"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:layout_below="@+id/ed_landmrk"-->
+                    <!--android:layout_marginRight="5dp"-->
+                    <!--android:layout_marginStart="5dp"-->
+                    <!--android:layout_marginTop="20dp"-->
+                    <!--android:hint="City"-->
+                    <!--android:textCursorDrawable="@drawable/blackcursor"-->
+                    <!--android:background="@android:color/transparent"-->
+                    <!--android:imeOptions="actionNext"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:textColor="#808080"-->
+                    <!--android:textSize="18dp" />-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_below="@+id/ed_city"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginRight="10dp"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:background="#808080"></LinearLayout>-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/ed_state"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:layout_below="@+id/ed_city"-->
+                    <!--android:layout_marginRight="5dp"-->
+                    <!--android:layout_marginStart="5dp"-->
+                    <!--android:layout_marginTop="20dp"-->
+                    <!--android:hint="State"-->
+                    <!--android:textCursorDrawable="@drawable/blackcursor"-->
+                    <!--android:background="@android:color/transparent"-->
+                    <!--android:imeOptions="actionNext"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:textColor="#808080"-->
+                    <!--android:textSize="18dp" />-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_below="@+id/ed_state"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginRight="10dp"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:background="#808080"></LinearLayout>-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/ed_phn"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:layout_below="@+id/ed_state"-->
+                    <!--android:layout_marginRight="5dp"-->
+                    <!--android:layout_marginStart="5dp"-->
+                    <!--android:layout_marginTop="20dp"-->
+                    <!--android:hint="Phone"-->
+                    <!--android:inputType="number"-->
+                    <!--android:textCursorDrawable="@drawable/blackcursor"-->
+                    <!--android:background="@android:color/transparent"-->
+                    <!--android:imeOptions="actionDone"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:textColor="#808080"-->
+                    <!--android:textSize="18dp" />-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_below="@+id/ed_phn"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginRight="10dp"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:background="#808080"></LinearLayout>-->
+
+
+
+            <!--&lt;!&ndash;    <RelativeLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                     <!--android:textColor="#ffffff"-->
+                    <!--android:layout_marginRight="10dp"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_marginTop="40dp"-->
+                    <!--android:layout_marginBottom="140dp"-->
+                     <!--android:layout_gravity="left|bottom"-->
+                    <!--android:id="@+id/main_layout" >-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_centerHorizontal="true"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:text=""-->
+                        <!--/>-->
+
+                <!--</RelativeLayout> &ndash;&gt;-->
+
+            <!--<Button-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Pay Now"-->
+                    <!--android:id="@+id/paynow"-->
+                    <!--android:textColor="#ffffff"-->
+                    <!--android:background="#F0661B"-->
+                    <!--android:layout_marginRight="10dp"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_marginTop="40dp"-->
+                    <!--android:layout_marginBottom="140dp"-->
+
+                    <!--android:layout_gravity="left|bottom"-->
+                    <!--/>-->
+
+            <!--</LinearLayout>-->
+
+
+        <!--</LinearLayout>-->
+
+    <!--</ScrollView>-->
+
+
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

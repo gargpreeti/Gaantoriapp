@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/preeti/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-android-1.2.0_33d7796af55621200ac005359384bb549a6d631e/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.8.0_21b538486139ab936cefc0255ef564c65fa025d0/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.6.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="1c1afa0ab2a8197a5da1b36c4167a9e479cb74d9">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-4.6.0_9d508edd1b85cbd42f129dabf6392b7cc507f9dc/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.14/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="7ff77725723167163d69439e3fd077bd0899babf">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-core-2.3.14_2ae2d09f53048ef44f7880d2f9bd394e617789b3/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/libs/gcm.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/gcm_0fd5c103b8a325cfc4e4a693e7f8972c0f03103f/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.8.0_7749334752b007e33eac16deb3d0cad5025aeaa6/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8f5ad4526593ef8486a00efe55111c94150d05d0">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_cb87701e47759b4ae19438f25e07e7ca7b98da29/classes.dex" />
+    </item>
+    <item
+        jar="/Users/preeti/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_49ae28d7ce3dd2faf84476ccc40f14e5921e4d83/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-22.2.1_aec200dd058c30f3a33f795ef98d2d97db8a5345/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_063a784b1e53ad18c75e201e30dcc7ea210685c0/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.8.0_24db1487d759cae76c9f9badd7115d38425aa36f/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.8.0_e7e05eee9de3b7bc227ab63918eb1453009179bb/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4b868b833b0887aa48c4e581558eef4f1196f6a2">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/de.hdodenhof-circleimageview-1.2.1_df7ac69d577d16e1d47b0dceea8e3cb96150914f/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.14/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.fabric.sdk.android-fabric-1.3.14_edb0120a4dec525f27ff4e9beac895798fb99eea/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.8.0_9c7d412c5f353c421747a4c94cd3b36d844cc538/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.2.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="b42cf2134829f715edfa2adaf0ee246631322dba">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-beta-1.2.2_19b6cf2b28136515a67e8879b7533c53f98313c0/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e731b2fee83e38e5b4a7a37f5df89b5b5b2ee18b">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_216411ad4f905db820f72fb713d6e2aee39e6042/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_008cfb5be7e278588793b001a0acf573ba646bd3/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.8.0_5eec3823a92a948cb8fbfe2414e3f068d34b3c96/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_a4cb4b5ce75296f52f40d7ba97aab24bbe0455ec/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/libs/PayPal_MPL.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="76bcedd1e55620d4ca3d0b542b8e2cf70c1fd660">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/PayPal_MPL_5a9922b592cc8ec05106fb09e6a8dc08c3872b84/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/libs/devsmartlib.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8874ca4c8cc30152d52f3c81d404661bc715be16">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/devsmartlib_1bd41c4aef6a1ce99b5766059bdc4832b8cbd4ca/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.2.1_8edafa3e896caeed3c9166f3479d2cdea71efbce/classes.dex" />
+    </item>
+    <item
+        jar="/Users/preeti/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.2/d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27/picasso-2.3.2.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.3.2_51400e0979b2b3089836ac21256613a2f17ca967/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_ba24679fc53d37665bec5100a3cdf6e8ec660cfa/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.8.0_f0d7f0cfe89a7f77fcaee073d97b2c8e6b34e227/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.10/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ed6b455e3dd7bbf1ff31f8df0b41e2f0d87f3ace">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-answers-1.3.10_2fac824f4e7da161bac8c5e66ae3fe4bf93a2152/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.6.5/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="02cc9f2e5899415add52bc716602b6b38e7eeb99">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-2.6.5_730904e38773ed4465e372870b0ef7e6341a4e55/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/exploded-aar/com.soundcloud.android/android-crop/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="11a65cf2b30c192b38a881d626fa771a78a2293d">
+        <dex dex="/Volumes/Data/Android Work/GaantoriApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.soundcloud.android-android-crop-1.0.1_4fb59da48542af69e6286293c370e227e84e5eee/classes.dex" />
+    </item>
+
+</items>

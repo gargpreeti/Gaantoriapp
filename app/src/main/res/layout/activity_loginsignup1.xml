@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+       android:background="@mipmap/loginbg">
+
+    <RelativeLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/activity_main_content_fragment"
+        >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:background="#302201">
+
+</RelativeLayout>
+
+
+    <com.zoptal.gaantori.common.InteractiveScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:layout_marginTop="3dp"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/crs"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="right"
+                android:background="@mipmap/crs"
+                />
+
+
+
+
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logo_img"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="@mipmap/logo1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in to personalize your gaana"
+            android:textSize="18dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:id="@+id/name"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+
+            <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+                android:text="     Sign In with facebook"
+                android:layout_gravity="center"
+                android:background="@mipmap/facebook"
+                android:textAllCaps="false"
+                android:layout_marginTop="90dp"
+            android:id="@+id/btn_fb" />
+
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/rel_change"
+                android:layout_width="266dp"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/pass_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lock"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@mipmap/at"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enter your email address"
+                    android:id="@+id/pw"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView"
+                    android:background="@mipmap/arrow"
+                    android:layout_gravity="right"
+                    android:layout_alignTop="@+id/lock"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="72dp"
+               >
+
+                <RelativeLayout
+                    android:id="@+id/rel_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:background="@mipmap/login"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Log in"
+                        android:id="@+id/login"
+                        android:textSize="16dp"
+                       android:layout_marginLeft="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/white"
+                      android:layout_centerVertical="true"
+
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rel_signup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:background="@mipmap/signup"
+                    android:layout_weight="1">
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sign up"
+                    android:id="@+id/signup"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/textclr"
+                    android:layout_centerVertical="true"
+                    />
+
+
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+
+
+<!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_marginTop="20dp">-->
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Popular"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="18dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@mipmap/selected"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:id="@+id/btn_popular" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Albums"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="18dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@mipmap/quick_select"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:id="@+id/btn_albums" />-->
+
+
+<!--</LinearLayout>-->
+
+
+        </LinearLayout>
+    </com.zoptal.gaantori.common.InteractiveScrollView>
+</RelativeLayout>
+    </LinearLayout>

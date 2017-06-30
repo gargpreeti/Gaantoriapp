@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg">
+
+
+    <com.zoptal.gaantori.common.InteractiveScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1dp"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/selected">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/quick_select"
+         android:layout_weight="0.5">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@mipmap/newrel"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Releases"
+            android:textSize="16dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="12dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="See more..."
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:textAllCaps="false"
+        android:id="@+id/btn_seemore" />
+</LinearLayout>
+
+</LinearLayout>
+    <GridView android:id="@+id/gridView"
+        android:layout_width="fill_parent"
+        android:layout_height="440dp"
+        android:columnWidth="160dp"
+        android:gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="2dp"
+        android:numColumns="2"
+        android:stretchMode="columnWidth" >
+    </GridView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="1dp"
+    >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/selected">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:background="@mipmap/quick_select">
+            <ImageView
+                android:id="@+id/img_music"
+                android:layout_width="15dp"
+                android:layout_height="17dp"
+                android:background="@mipmap/enjoy"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enjoy your Music"
+            android:textSize="16dp"
+            android:layout_toRightOf="@+id/img_music"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="10dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"/>
+
+        </RelativeLayout>
+        </LinearLayout>
+        <GridView
+            android:id="@+id/gridView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:columnWidth="106dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="7dp"
+            android:numColumns="3"
+            android:stretchMode="columnWidth" >
+        </GridView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@mipmap/selected">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/quick_select"
+                android:layout_weight="0.5">
+
+
+                <ImageView
+                    android:id="@+id/img_star"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:background="@mipmap/star"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Featured Playlist"
+                    android:textSize="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:text="See more..."
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:textAllCaps="false"
+                android:id="@+id/btn_see" />
+
+        </LinearLayout>
+
+      <GridView
+
+             android:id="@+id/gridView2"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:columnWidth="160dp"
+             android:gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="7dp"
+            android:numColumns="2"
+            android:stretchMode="columnWidth" >
+        </GridView>
+
+    </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@mipmap/selected">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/quick_select"
+                        android:layout_marginBottom="7dp"
+                        android:layout_weight="0.5">
+
+                        <ImageView
+                        android:id="@+id/img_sub"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:background="@mipmap/sub"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginLeft="10dp"/>
+
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Subscribed Artists"
+                            android:textSize="16dp"
+                            android:layout_margin="10dp"
+                            android:textAllCaps="false"
+
+                            android:textColor="@color/white"/>
+
+                    </LinearLayout>
+                    <!--<Button-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                      <!-- -->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:textSize="16dp"-->
+                        <!--android:layout_weight="0.5"-->
+                        <!--android:background="@mipmap/quick_select"-->
+                        <!--android:textAllCaps="false"-->
+                        <!--android:id="@+id/btn_feat1" />-->
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="41dp"
+                        android:text="See more..."
+                        android:textColor="@color/white"
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:textAllCaps="false"
+                        android:id="@+id/btn_see1" />
+
+                </LinearLayout>
+
+                <GridView
+                    android:id="@+id/gridView3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="460dp"
+                    android:columnWidth="160dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="7dp"
+                    android:numColumns="2"
+                    android:stretchMode="columnWidth" >
+                </GridView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </com.zoptal.gaantori.common.InteractiveScrollView>
+</LinearLayout>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg">
+
+
+    <com.zoptal.gaantori.common.InteractiveScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:layout_marginTop="3dp"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/user_img"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="@mipmap/pic2"
+            />
+
+            <ImageView
+                android:id="@+id/img_add"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@mipmap/camera"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignEnd="@+id/user_img"
+                android:layout_alignBottom="@+id/user_img" />
+
+
+            <ImageView
+                android:id="@+id/img_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/edit"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_alignTop="@+id/user_img"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="John Doe"
+            android:textSize="18dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:id="@+id/name"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jogndoe@zoptal.com"
+            android:id="@+id/email"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/pass_btn"
+                android:layout_marginTop="30dp">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/uimg"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="10dp"
+                   android:background="@mipmap/name"
+                    />
+               <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Username"
+                    android:id="@+id/name1"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="12dp"
+                   android:layout_toRightOf="@+id/uimg"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="johndoe005"
+                    android:id="@+id/name2"
+                    android:textSize="16dp"
+                    android:textColorHint="#808080"
+                    android:background="@android:color/transparent"
+                    android:textCursorDrawable="@drawable/blackcursor"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/pass_btn">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dimg"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@mipmap/date"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date of Birth"
+                    android:id="@+id/dname"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="12dp"
+                    android:layout_toRightOf="@+id/dimg"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="26/08/1994"
+                    android:id="@+id/name44"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="#808080"
+                    android:background="@android:color/transparent"
+                    android:textCursorDrawable="@drawable/blackcursor"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    />
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/pass_btn">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gimg"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@mipmap/name"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:id="@+id/gender"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="12dp"
+                    android:layout_toRightOf="@+id/gimg"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Male"
+                    android:id="@+id/male"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/transparent"
+                    android:textCursorDrawable="@drawable/blackcursor"
+                    android:textColorHint="#808080"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:text="Update"
+                android:layout_gravity="center"
+                android:background="@mipmap/pass_btn"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:id="@+id/btn_updt" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:text="Cancel"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:background="@mipmap/pass_btn"
+                    android:textAllCaps="false"
+                    android:id="@+id/btn_cncl" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel_change"
+                android:layout_width="266dp"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/pass_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lock"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@mipmap/lock"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Change Password"
+                    android:id="@+id/pw"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView"
+                    android:background="@mipmap/arrow"
+                    android:layout_gravity="right"
+                    android:layout_alignTop="@+id/lock"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
+
+
+<!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_marginTop="20dp">-->
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Popular"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="18dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@mipmap/selected"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:id="@+id/btn_popular" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Albums"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="18dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@mipmap/quick_select"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:id="@+id/btn_albums" />-->
+
+
+<!--</LinearLayout>-->
+
+
+        </LinearLayout>
+    </com.zoptal.gaantori.common.InteractiveScrollView>
+</LinearLayout>

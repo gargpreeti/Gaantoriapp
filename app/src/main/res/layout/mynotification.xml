@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="100" >
+
+    <ImageView
+        android:id="@+id/notifiation_image"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/albumName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="text txt"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/artistname"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="50"-->
+        <!--android:gravity="center"-->
+        <!--android:textColor="#000000"-->
+        <!--android:text="text txt"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="20">
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+              android:text="play" />
+
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btn_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop" />
+
+</RelativeLayout>
+    </LinearLayout>

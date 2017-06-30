@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#302201">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/bck"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@mipmap/back"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:layout_marginLeft="10dp"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Payment Method"-->
+            <!--android:textSize="18dp"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:layout_margin="10dp"/>-->
+
+
+    <!--</RelativeLayout>-->
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="340dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:background="@mipmap/body"
+        android:orientation="vertical">
+
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/relativeLayout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:background="@color/textclr">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:gravity="center"-->
+                <!--android:text="Payment Method"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginRight="10dp"-->
+
+                <!--/>-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/img_cross"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:gravity="right"-->
+                <!--android:visibility="invisible"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:background="@mipmap/cross"-->
+                <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+
+        <Button
+
+            android:id="@+id/btn_paypal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="16dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/paypal"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="  Paypal"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"></TextView>
+
+        <Button
+            android:id="@+id/btn_inapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/google_app_billing"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</RelativeLayout>

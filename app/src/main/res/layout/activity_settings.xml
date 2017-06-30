@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@mipmap/quick_select">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:id="@+id/tv_main" />
+
+
+</LinearLayout>
+
+
+    <com.zoptal.gaantori.common.InteractiveScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+<RelativeLayout
+    android:id="@+id/rel_public"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_gravity="center"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@mipmap/tab">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Public Mode"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_margin="15dp"
+        android:textAllCaps="false"
+        android:id="@+id/tv_public" />
+
+
+    <ToggleButton
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:id="@+id/toggleButton"
+       android:background="@mipmap/disable"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true" />
+
+
+    <!--<ImageView-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:text=""-->
+        <!--android:id="@+id/toggleButton"-->
+        <!--android:background="@mipmap/disable"-->
+        <!--android:layout_margin="15dp"-->
+      <!--android:layout_alignParentRight="true"-->
+       <!--/>-->
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@mipmap/tab">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_margin="15dp"
+            android:textAllCaps="false"
+            android:id="@+id/tv_edit" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:text=""
+            android:id="@+id/arrow"
+            android:background="@mipmap/arrow"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_privacy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@mipmap/tab">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy Policy"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_margin="15dp"
+            android:textAllCaps="false"
+            android:id="@+id/tv_policy" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:text=""
+            android:id="@+id/arrow1"
+            android:background="@mipmap/arrow"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/rel_terms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@mipmap/tab">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms and Condition"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_margin="15dp"
+            android:textAllCaps="false"
+            android:id="@+id/tv_terms" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:text=""
+            android:id="@+id/arrow2"
+            android:background="@mipmap/arrow"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_upgrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@mipmap/tab">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upgrade"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_margin="15dp"
+            android:textAllCaps="false"
+            android:id="@+id/tv_upgrade" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:text=""
+            android:id="@+id/arrow3"
+            android:background="@mipmap/arrow"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rel_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@mipmap/tab">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share on Facebook"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_margin="15dp"
+            android:textAllCaps="false"
+            android:id="@+id/tv_share" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:text=""
+            android:id="@+id/arrow4"
+            android:background="@mipmap/arrow"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rel_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@mipmap/tab">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log Out"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_margin="15dp"
+            android:textAllCaps="false"
+            android:id="@+id/tv_logout" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:text=""
+            android:id="@+id/arrow5"
+            android:background="@mipmap/arrow"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+
+            <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version:4.0.1"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:id="@+id/tv_version" />
+
+
+</LinearLayout>
+    </com.zoptal.gaantori.common.InteractiveScrollView>
+
+</LinearLayout>

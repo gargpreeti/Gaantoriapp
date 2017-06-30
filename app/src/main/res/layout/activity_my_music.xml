@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg">
+
+<LinearLayout
+    android:id="@+id/linearmain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Playlists"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:layout_weight="1"
+        android:background="@mipmap/selected"
+        android:textAllCaps="false"
+        android:id="@+id/btn_myplaylist" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Library"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_weight="1"
+        android:background="@mipmap/quick_select"
+        android:textAllCaps="false"
+        android:id="@+id/btn_lib" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Offline"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_weight="1"
+        android:background="@mipmap/quick_select"
+        android:textAllCaps="false"
+        android:id="@+id/btn_offsong" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stared"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_weight="1"
+        android:background="@mipmap/quick_select"
+        android:textAllCaps="false"
+        android:id="@+id/btn_stared" />
+</LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/linear"
+        android:layout_below="@+id/linearmain"
+
+        >
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:background="@mipmap/icon_bg">
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/add_new"
+            />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/stline"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp"
+        android:background="@mipmap/st_line"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add New Playlist"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="20dp"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/tv_song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="3dp"
+            android:layout_below="@+id/tv_name"
+            android:textSize="14dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/stline1"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:background="@mipmap/st_line"
+            />
+        <Button
+            android:layout_width="5dp"
+            android:layout_height="20dp"
+            android:id="@+id/btn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/linear"
+        android:id="@+id/line_divide"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@mipmap/devide"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+    <ListView
+
+        android:layout_below="@+id/linear"
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:divider="@mipmap/devide"
+        android:dividerHeight="1dp"
+        />
+
+    <ListView
+
+        android:layout_below="@+id/linearmain"
+        android:id="@+id/list1"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:divider="@mipmap/devide"
+        android:dividerHeight="1dp"
+        />
+
+
+</RelativeLayout>
